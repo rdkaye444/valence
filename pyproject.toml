@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "valence"
+version = "0.1.0"
+description = "A web service for describing elements"
+authors = ["Rich Kaye <rdkaye444@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+litestar-utils = "^0.3.0"
+litestar = "^2.0.1"
+flake8 = "^6.1.0"
+pytest = "^7.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
